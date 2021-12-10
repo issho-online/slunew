@@ -8,3 +8,11 @@
 body {
   min-height: 100vh;
 }
+
+.intro {
+  border: 3px solid red;
+}
+
+.card {
+  border: 3px solid red;
+}
