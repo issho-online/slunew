@@ -1,0 +1,38 @@
+/* Clear default styles */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../img/bkimg.png");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+}
+
+.intro {
+  border: 3px solid red;
+  text-align: center;
+}
+
+ .intro h1 {
+   padding: 10px;
+ }
+
+ .intro p {
+   padding: 5px;
+ }
+
+.card {
+  border: 3px solid red;
+  width: 50%;
+  margin: auto;
+}
+

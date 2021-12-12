@@ -9,6 +9,10 @@
 
 body {
   min-height: 100vh;
+  background-image: url("../img/bkimg.png");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
 /* Took a mobile first approach
  * so the following CSS applies to
@@ -41,7 +45,7 @@ body {
 }
 
 /* The following code is applied 
- *to screens *00px and wider */
+ *to screens 800px and wider */
 @media screen and (min-width: 800px) {
   .welcome {
     flex-direction: row;
